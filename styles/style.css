@@ -181,7 +181,7 @@ p {
 .youtube {
   border: 1px solid rgba(13, 19, 33, 0.2);
 
-  margin: 40px 175px;
+  margin: 100px 175px;
   padding: 30px;
 }
 
@@ -220,4 +220,69 @@ p {
 .js-card {
   background-color: #fffbe5;
   text-align: left;
+}
+
+/* I need Support */
+.support-section {
+  position: relative;
+  background-image: url('../assets/handshake.jpg');
+
+  background-size: cover;
+  background-position: center;
+  margin: 200px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 25px;
+}
+
+.support-content {
+  text-align: center;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.support-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.support-content p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.support-content form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.support-content input[type='text'] {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.support-content button[type='submit'] {
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
 }
