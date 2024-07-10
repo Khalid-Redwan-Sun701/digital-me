@@ -184,3 +184,40 @@ p {
   margin: 40px 175px;
   padding: 30px;
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.learn-more {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.html-card {
+  background-color: #fef2f2;
+  text-align: left;
+}
+
+.css-card {
+  background-color: #f0f8ff;
+  text-align: left;
+}
+
+.js-card {
+  background-color: #fffbe5;
+  text-align: left;
+}
