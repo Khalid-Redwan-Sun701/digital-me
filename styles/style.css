@@ -286,3 +286,38 @@ p {
   cursor: pointer;
   border: none;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 30px;
+}
+
+.footer p {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+}
+
+.social-icons {
+  margin-right: 100px;
+  margin-bottom: 15px;
+}
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
