@@ -1,0 +1,186 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  margin: 0;
+
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 24px;
+  color: black;
+  margin-left: 40px;
+}
+
+.resume.btn {
+  padding: 10px 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url('../assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.boy-img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+
+  margin: 20px 0;
+  color: black;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  color: black;
+}
+
+.contact-btn {
+  margin: 30px;
+  width: 208px;
+  height: 66px;
+  padding: 10px 20px;
+  background-color: black;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.why-web-dev {
+  padding: 50px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 10px;
+  margin: 60px 170px;
+}
+
+.why-web-dev h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.why-web-dev p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second {
+  /* border: 1px solid red; */
+  margin-left: 50px;
+}
+
+.card-text {
+  text-align: left;
+
+  margin-left: 20px;
+}
+
+.card-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.card-text p {
+  font-size: 14px;
+
+  margin-left: 0px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.learn-more-btn {
+  padding: 10px 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-img {
+  width: 150px;
+  margin-left: 20px;
+}
+
+.youtube {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+
+  margin: 40px 175px;
+  padding: 30px;
+}
