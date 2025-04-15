@@ -9,13 +9,6 @@ This was built during my early steps into the world of **HTML** and **CSS**.
 
 ---
 
-## 🚀 Live Preview
-
-🔗 [Click here to view it live](#)  
-(_You can add your GitHub Pages or Netlify link here later_)
-
----
-
 ## 🛠️ Built With
 
 - HTML5
